@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("/assets/wallpaper.png")  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color:antiquewhite;
+}
+.search-field
+{
+  margin: 10px 20px;
+  padding: 7% ;
+}
+.input-field
+{
+  border: 0;
+  margin: 20px 10px;
+  padding: 10px 18px;
+  border-radius: 30px;
+  color: darkblue;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1, h2, h3
+{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.info
+{
+  font-size: 1.2rem;
+}
